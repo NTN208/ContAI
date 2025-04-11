@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ContAI</title>
+</head>
+<body>
+  <h1>Đặt hàng tại ContAI</h1>
+  <form id="orderForm">
+    <input type="text" id="name" placeholder="Tên của bạn" required><br/>
+    <input type="text" id="service" placeholder="Dịch vụ yêu cầu" required><br/>
+    <textarea id="note" placeholder="Ghi chú thêm"></textarea><br/>
+    <button type="submit">Gửi đơn</button>
+  </form>
+  <p>Cú pháp chuyển khoản: <span id="transferCode"></span></p>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
